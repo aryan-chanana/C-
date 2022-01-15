@@ -21,12 +21,12 @@ int main()
 		cin >> size;
 		int *input = new int[size];
 		cout << "Enter elements of array: ";
-		for (int i = 0; i < size; ++i) {
+		for (int i = 0; i < size; i++) {
 			cin >> input[i];
 		}
 
 		bubbleSort(input, size);
-		for (int i = 0; i < size; ++i) {
+		for (int i = 0; i < size; i++) {
 			cout << input[i] << " ";
 		}
 		cout << endl;
