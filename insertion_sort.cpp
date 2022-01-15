@@ -20,8 +20,10 @@ void insertionSort(int *input, int size)
 
 int main()
 {	int size;
+    cout << "Enter size of array: ";
 	cin >> size;
 	int *input = new int[size];
+	cout << "Enter elements of array: ";
 	for (int i = 0; i < size; i++) {
 		cin >> input[i];
 	}
